@@ -1,14 +1,10 @@
 import React from 'react'
-import Cabecalho from './componente/cabecalho/Cabecalho'
-import Corpo from './componente/corpo/Corpo'
-import Rodape from './componente/rodape/Rodape'
+import Home from './menu-principal/Home_principal'
 
 export default function App() {
   return (
     <div>
-      <Cabecalho />
-      <Corpo />
-      <Rodape />
+      <Home/>
     </div>
   );
 }
