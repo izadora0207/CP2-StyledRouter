@@ -4,7 +4,7 @@ export default function Rodape() {
     return (
         <footer>
             <p>
-                <a href=""></a>
+                Rua tal n° 6
             </p>
         </footer>
     )
