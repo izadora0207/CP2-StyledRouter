@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Moda_masc() {
+export default function ModaMasc() {
     return (
         <div>
-            
+            <h1>moda masculinaaa</h1>
         </div>
     )
 }
