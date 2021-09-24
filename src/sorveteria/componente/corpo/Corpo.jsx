@@ -47,19 +47,19 @@ export default function Corpo() {
             <Ul>
                 <Li>
                     <Img src={Ct1} alt="" />
-                    <p>Kinder - 59,99</p>
+                    <p>Cappuccino - 14,99</p>
                 </Li>
                 <Li>
                     <Img src={Ct2} alt="" />
-                    <p>Brisbane - 59,99</p>
+                    <p>Chocolate Quente - 14,99</p>
                 </Li>
                 <Li>
                     <Img src={Ct3} alt="" />
-                    <p>Kit Kat - 59,99</p>
+                    <p>Expresso - 14,99</p>
                 </Li>
                 <Li>
                     <Img src={Ct4} alt="" />
-                    <p>Melbourne - 59,99</p>
+                    <p>ExpressoChantilly - 14,99</p>
                 </Li>
             </Ul>
 
