@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-    background-color: black;
+    /* background-color: black; */
     color: white;
     height: 100vh;
     list-style: none;

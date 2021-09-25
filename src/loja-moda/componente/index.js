@@ -6,8 +6,8 @@ export default function IndexL() {
     return (
       <div className="App">
         <Menu/>
-        <button><Link to='/'>  voltar </Link></button>
-        <h1>Loja aquii</h1>
+        <button><Link to='/'>Voltar</Link></button>
+        <h1>Loja aqui</h1>
         
       </div>
     );
