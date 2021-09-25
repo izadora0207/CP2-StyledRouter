@@ -12,6 +12,7 @@ export default function ModaInfan() {
         <div className='container'>
             <div>
                 <h1>Moda infantil</h1>
+                <img src={bannerinfantil} alt="Banner Verde Semana do Cliente" />
             </div>
         <div className='produtos'>
             <div className="produto-1">
