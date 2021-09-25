@@ -8,7 +8,6 @@ import roupaf4 from '../img/feminina2.png'
 export default function ModaFem() {
     return (
         <div className="container">
-            <body>
                 <h1>Moda feminina</h1>
                 <figcaption className="banner">
                     <figure>
@@ -50,8 +49,7 @@ export default function ModaFem() {
                     <p>
                         R$ 159,90
                     </p>
-                </div>
-            </body>    
+                </div>  
         </div>
     )
 }

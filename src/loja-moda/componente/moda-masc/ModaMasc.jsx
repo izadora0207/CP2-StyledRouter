@@ -8,7 +8,6 @@ import roupa4 from '../img/masculina4.png'
 export default function ModaMasc() {
     return (
         <div className="container">
-            <body>
                 <h1>Moda masculina</h1>
                 <figcaption className="banner">
                     <figure>
@@ -50,8 +49,7 @@ export default function ModaMasc() {
                     <p>
                         R$ 119,90
                     </p>
-                </div>
-            </body>    
+                </div> 
         </div>
     )
 }
