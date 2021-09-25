@@ -16,7 +16,7 @@ export default function ModaFem() {
                     </figure>
                 </figcaption>
                 <div className="produto-1">
-                    <img src={roupaf1} alt="Moda Geek"/>
+                    <img src={roupaf1} alt="Blusa cropped branca"/>
                     <p>
                         Blusa cropped em algodão com bordados de barquinhos branco
                     </p>
@@ -25,7 +25,7 @@ export default function ModaFem() {
                     </p>
                 </div>
                 <div className="produto-2">
-                    <img src={roupaf2} alt="Moda Geek"/>
+                    <img src={roupaf2} alt="Vestido midi em viscose"/>
                     <p>
                         Vestido midi em viscose com decote quadrado e estampa xadrez prymarycolor12
                     </p>
@@ -34,7 +34,7 @@ export default function ModaFem() {
                     </p>
                 </div>
                 <div className="produto-3">
-                    <img src={roupaf3} alt="Moda Geek"/>
+                    <img src={roupaf3} alt="Jaqueta em linho azul"/>
                     <p>
                         Jaqueta em linho com botões de pérola azul
                     </p>
@@ -43,7 +43,7 @@ export default function ModaFem() {
                     </p>
                 </div>
                 <div className="produto-4">
-                    <img src={roupaf4} alt="Moda Geek"/>
+                    <img src={roupaf4} alt="Jaqueta em linho rosa"/>
                     <p>
                     Jaqueta em linho com botões de pérola rosa
                     </p>

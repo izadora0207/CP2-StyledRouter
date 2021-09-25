@@ -16,7 +16,7 @@ export default function ModaMasc() {
                     </figure>
                 </figcaption>
                 <div className="produto-1">
-                    <img src={roupa1} alt="Moda Geek"/>
+                    <img src={roupa1} alt="Camisa manga curta em linho bege"/>
                     <p>
                         Camisa manga curta em linho com bolso bege
                     </p>
@@ -25,7 +25,7 @@ export default function ModaMasc() {
                     </p>
                 </div>
                 <div className="produto-2">
-                    <img src={roupa2} alt="Moda Geek"/>
+                    <img src={roupa2} alt="Calça em linho branca"/>
                     <p>
                         Calça em linho sem estampa branco
                     </p>
@@ -34,7 +34,7 @@ export default function ModaMasc() {
                     </p>
                 </div>
                 <div className="produto-3">
-                    <img src={roupa3} alt="Moda Geek"/>
+                    <img src={roupa3} alt="Camisa manga longa em linho azul"/>
                     <p>
                         Camisa manga longa em linho azul
                     </p>
@@ -43,7 +43,7 @@ export default function ModaMasc() {
                     </p>
                 </div>
                 <div className="produto-4">
-                    <img src={roupa4} alt="Moda Geek"/>
+                    <img src={roupa4} alt="Camisa manga curta em viscose"/>
                     <p>
                         Camisa manga curta em viscose estampa bandana roxo
                     </p>
