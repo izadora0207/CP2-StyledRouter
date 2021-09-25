@@ -1,9 +1,9 @@
 import React from 'react'
-
+/*import ArthurFT from '../../../img'*/
 export default function Sobre() {
     return (
         <div>
-            <h1>Sobre Nós</h1>
+            <img src="" alt="" />
         </div>
     )
 }

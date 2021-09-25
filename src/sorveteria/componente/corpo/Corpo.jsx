@@ -1,14 +1,14 @@
 import React from 'react'
-import Ft1 from '../../../img/KINDER.jpg'
-import Ft2 from '../../../img/Brisbane.jpg'
-import Ft3 from '../../../img/Kit Kat.jpg'
-import Ft4 from '../../../img/Melbourne.jpg'
-import Ft5 from '../../../img/CascãoTrufado.jpg'
+import Ft1 from '../img/KINDER.jpg'
+import Ft2 from '../img/Brisbane.jpg'
+import Ft3 from '../img/Kit Kat.jpg'
+import Ft4 from '../img/Melbourne.jpg'
+import Ft5 from '../img/CascãoTrufado.jpg'
 
-import Ct1 from '../../../img/Cappuccino.jpg'
-import Ct2 from '../../../img/Chocolate Quente.jpg'
-import Ct3 from '../../../img/Expresso.jpg'
-import Ct4 from '../../../img/ExpressoChantilly.jpg'
+import Ct1 from '../img/Cappuccino.jpg'
+import Ct2 from '../img/Chocolate Quente.jpg'
+import Ct3 from '../img/Expresso.jpg'
+import Ct4 from '../img/ExpressoChantilly.jpg'
 import { Li, Ul, Img } from '../../../styled'
 
 export default function Corpo() {
