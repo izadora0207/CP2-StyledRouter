@@ -6,7 +6,7 @@ import ModaMasc from './loja-moda/componente/moda-masc/ModaMasc'
 import ModaFem from "./loja-moda/componente/moda-fem/ModaFem";
 import ModaInfan from "./loja-moda/componente/moda-infan/ModaInfan";
 import Sobre from "./loja-moda/componente/sobre/Sobre";
-import { Div,Body } from './styled'
+import { Div } from './styled'
 import './app.css' //so para nao ficar aquelas 'margins' horriveis de fundo
 
 export default function App() {
