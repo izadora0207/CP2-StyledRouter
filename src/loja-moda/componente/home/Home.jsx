@@ -1,5 +1,6 @@
 import React from 'react'
-import {BannerImg, ProdutosM, Produtos, ContainerProd} from '../styled'
+import { Link } from 'react-router-dom'
+import {BannerImg, ProdutosM, Produtos, ContainerProd, Legenda, Colecao, Comprar, Linha2} from '../styled'
 import banH from '../img/BannerHome.jpg'
 import roupah1 from '../img/masculina1-hover.png'
 import roupah2 from '../img/feminina1-hover.png'
@@ -12,25 +13,31 @@ export default function Home() {
             <div>
                 <BannerImg src={banH} alt="Moda Verão"/>
             </div>
-            <h1>confira nossas coleções</h1>
+            <h1>confira nossas coleções <Linha2/></h1>
             <ProdutosM>
                 <Produtos>
-                    <img src={roupah1} alt="Blusa cropped branca"/>
-                        <p>Aposte nos tons pastel</p>
-                        <p>Para Mais cor e leveza no dia a dia</p>
-                        <span>Comprar</span>
+                    <Link to='/moda-masculina'>
+                        <img src={roupah1} alt="Blusa cropped branca"/>
+                        <Colecao>Aposte nos tons pastel</Colecao>
+                        <Legenda>Para Mais cor e leveza no dia a dia</Legenda>
+                        <Comprar>Comprar</Comprar>
+                    </Link>
                 </Produtos>
                 <Produtos>
-                    <img src={roupah2} alt="Blusa cropped branca"/>
-                        <p>Alto astral</p>
-                        <p>Looks com uma dose extra de bom humor</p>
-                        <span>Comprar</span>
+                    <Link to='/moda-feminina'>
+                        <img src={roupah2} alt="Blusa cropped branca"/>
+                        <Colecao>Alto astral</Colecao>
+                        <Legenda>Looks com uma dose extra de bom humor</Legenda>
+                        <Comprar>Comprar</Comprar>
+                    </Link>
                 </Produtos>
                 <Produtos>
-                    <img src={roupah3} alt="Blusa cropped branca"/>
-                        <p>Renovação urbana</p>
-                        <p>Amplo, comfortavel e cheio de atitude</p>
-                        <span>Comprar</span>
+                    <Link to='/moda-infantil'>
+                        <img src={roupah3} alt="Blusa cropped branca"/>
+                        <Colecao>Renovação urbana</Colecao>
+                        <Legenda>Amplo, comfortavel e cheio de atitude</Legenda>
+                        <Comprar>Comprar</Comprar>
+                    </Link>
                 </Produtos>
             </ProdutosM>
         </ContainerProd>

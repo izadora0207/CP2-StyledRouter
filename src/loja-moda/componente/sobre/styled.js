@@ -33,3 +33,19 @@ export const Div = styled.div`
     max-width: 225px;
     border-radius: 5px;
 `
+export const Linha2 = styled.div`
+   height:4px;
+   background:#FF0000;
+   width:50px;
+   border-radius:50px;
+   margin-top:20px;
+   margin-left:5px;
+`
+export const Titulo = styled.h1`
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    margin-bottom:20px;
+    padding-top:50px;
+    text-transform: uppercase;
+    margin-left:20px;
+`
