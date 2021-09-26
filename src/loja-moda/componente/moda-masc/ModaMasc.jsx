@@ -19,36 +19,36 @@ export default function ModaMasc() {
                     <p>
                         Camisa manga curta em linho com bolso bege
                     </p>
-                    <p>
+                    <span>
                         R$ 139,90
-                    </p>
+                    </span>
                 </div>
                 <div className="produto-2">
                     <img src={roupa2} alt="Calça em linho branca"/>
                     <p>
                         Calça em linho sem estampa branco
                     </p>
-                    <p>
+                    <span>
                         R$ 159,90
-                    </p>
+                    </span>
                 </div>
                 <div className="produto-3">
                     <img src={roupa3} alt="Camisa manga longa em linho azul"/>
                     <p>
                         Camisa manga longa em linho azul
                     </p>
-                    <p>
+                    <span>
                         R$ 139,90
-                    </p>
+                    </span>
                 </div>
                 <div className="produto-4">
                     <img src={roupa4} alt="Camisa manga curta em viscose"/>
                     <p>
                         Camisa manga curta em viscose estampa bandana roxo
                     </p>
-                    <p>
+                    <span>
                         R$ 119,90
-                    </p>
+                    </span>
                 </div> 
         </div>
     )
