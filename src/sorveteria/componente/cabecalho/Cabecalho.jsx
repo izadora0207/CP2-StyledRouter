@@ -7,7 +7,7 @@ export default function Cabecalho() {
         <div>
             <Linha/>
               <Button><Link to='/'>  Voltar </Link></Button>
-           <Div className='banner'>
+           <Div className='banner-sorv'>
                 <H1>Olá seja bem vindo!</H1>
                 <p> Sorveteria Tage o melhor sorvete da sua vida.</p>
             </Div> 
