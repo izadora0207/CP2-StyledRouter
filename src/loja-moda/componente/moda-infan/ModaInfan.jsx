@@ -1,26 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from '../styled'
 import bannerinfantil from '../img/bannerinfantil.jpg'
 import roupai1 from '../img/roupa-infantil1.jpg'
 import roupai2 from '../img/roupa-infantil2.jpg'
 import roupai3 from '../img/roupa-infantil3.jpg'
 import roupai4 from '../img/roupa-infantil4.jpg'
+import Menu from '../menu/Menu'
 
 
 export default function ModaInfan() {
     return (
         <ContainerProd>
-            <header>
-                <nav>
-                    <ul>
-                        <li><Link to='/moda-masculina'>Moda Masculina</Link></li>
-                        <li><Link to='/moda-feminina'>Moda Feminina</Link></li>
-                        <li><Link to='/moda-infantil'>Moda Infantil</Link></li>
-                        <li><Link to='/sobre'>Sobre Nós</Link></li>
-                    </ul>
-                </nav>
-            </header>
+           <Menu link='/loja-roupa'/>
             <div>
                 <BannerImg src={bannerinfantil} alt="Banner Verde Semana do Cliente" />
             </div>
