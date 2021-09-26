@@ -5,7 +5,7 @@ import roupaf1 from '../img/feminina1.png'
 import roupaf2 from '../img/feminina2.png'
 import roupaf3 from '../img/feminina3.png'
 import roupaf4 from '../img/feminina2.png'
-import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from './styled'
+import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from '../styled'
 
 export default function ModaFem() {
     return (

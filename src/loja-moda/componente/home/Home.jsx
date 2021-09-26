@@ -1,5 +1,5 @@
 import React from 'react'
-import {BannerImg, ProdutosM, Produtos, ContainerProd} from './styled'
+import {BannerImg, ProdutosM, Produtos, ContainerProd} from '../styled'
 import banH from '../img/BannerHome.jpg'
 import roupah1 from '../img/masculina1-hover.png'
 import roupah2 from '../img/feminina1-hover.png'

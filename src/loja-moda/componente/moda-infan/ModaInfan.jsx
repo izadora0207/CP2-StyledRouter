@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from './styled'
+import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from '../styled'
 import bannerinfantil from '../img/bannerinfantil.jpg'
 import roupai1 from '../img/roupa-infantil1.jpg'
 import roupai2 from '../img/roupa-infantil2.jpg'

@@ -5,7 +5,7 @@ import roupa1 from '../img/masculina1.png'
 import roupa2 from '../img/masculina2.png'
 import roupa3 from '../img/masculina3.png'
 import roupa4 from '../img/masculina4.png'
-import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from './styled'
+import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from '../styled'
 
 export default function ModaMasc() {
     return (
