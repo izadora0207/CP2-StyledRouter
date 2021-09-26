@@ -11,6 +11,16 @@ import roupai4 from '../img/roupa-infantil4.jpg'
 export default function ModaInfan() {
     return (
         <ContainerProd>
+            <header>
+                <nav>
+                    <ul>
+                        <li><Link to='/moda-masculina'>Moda Masculina</Link></li>
+                        <li><Link to='/moda-feminina'>Moda Feminina</Link></li>
+                        <li><Link to='/moda-infantil'>Moda Infantil</Link></li>
+                        <li><Link to='/sobre'>Sobre Nós</Link></li>
+                    </ul>
+                </nav>
+            </header>
             <div>
                 <BannerImg src={bannerinfantil} alt="Banner Verde Semana do Cliente" />
             </div>

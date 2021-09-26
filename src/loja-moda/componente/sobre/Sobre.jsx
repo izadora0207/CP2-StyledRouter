@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ArthurFT from '../img/arthur.jpg'
 import DiegoFT from '../img/Diego.jpeg'
 import IzaFT from '../img/iza.jpeg'
@@ -8,6 +9,17 @@ import { A,H2, P, Div, Section, Img } from './styled'
 
 export default function Sobre() {
     return (
+        <div>
+<header>
+            <nav>
+                <ul>
+                    <li><Link to='/moda-masculina'>Moda Masculina</Link></li>
+                    <li><Link to='/moda-feminina'>Moda Feminina</Link></li>
+                    <li><Link to='/moda-infantil'>Moda Infantil</Link></li>
+                    <li><Link to='/sobre'>Sobre Nós</Link></li>
+                </ul>
+            </nav>
+        </header>
         <Section>
             <Div>
                 <Img src={ArthurFT} alt="foto arthur" />
@@ -38,5 +50,6 @@ export default function Sobre() {
                 </A>
             </Div>
         </Section>
+        </div>   
     )
 }
