@@ -9,10 +9,22 @@ export const Produtos = styled.div`
     {
         height: 100%;
         border-radius: 3px;
+        -webkit-transition: all 0.8s ease;
+        transition: all 0.8s ease;
+        margin-bottom: 25px;
+    }
+
+    img:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     @media(max-width: 590px){
-        margin: 20px auto; 
+        margin: 30px auto; 
+    }
+
+    @media(max-width: 1195px){
+        margin: 35px auto;
     }
 `;
 
@@ -37,21 +49,14 @@ export const ProdutosM = styled.div`
     @media(max-width: 590px){
         grid-template-columns: repeat(1,minmax(0,1fr));
     }
-
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-    text-transform: uppercase; */
 `
+
 export const PrecoDesc = styled.div`]
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    /* background-color: #ff2; */
     margin: 0 auto;
 `
 
