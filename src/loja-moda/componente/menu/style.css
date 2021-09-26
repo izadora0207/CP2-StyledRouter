@@ -2,7 +2,7 @@
     .check1{
         display: block;
     }
-    ul{
+    .menu{
         position: absolute;
         width: 100%;
         height: inherit;
@@ -23,7 +23,7 @@
 	}
 
     header{
-        padding: 0px !important;
+        padding:  0px 19px !important;
     }
     nav{
       display: flex;
@@ -40,7 +40,6 @@
   button{
     position: relative !important;
     top: 8px !important;
-    right: 2px;
     left: 0 !important;
   }
 }

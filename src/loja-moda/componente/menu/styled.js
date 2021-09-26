@@ -33,7 +33,7 @@ export const Header= styled.header`
         cursor: pointer;
         display: none;
         line-height: 20px;
-        margin-top:10px
+        margin-top:16px
         
     }
     #check1{

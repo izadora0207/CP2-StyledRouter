@@ -1,15 +1,17 @@
 import React from 'react'
 import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc, Linha2 } from '../styled'
-import bannerinfantil from '../img/bannerinfantil.jpg'
+import bannerinfantil from '../img/bannerInfantil.jpg'
 import roupai1 from '../img/roupa-infantil1.jpg'
 import roupai2 from '../img/roupa-infantil2.jpg'
 import roupai3 from '../img/roupa-infantil3.jpg'
 import roupai4 from '../img/roupa-infantil4.jpg'
 import Menu from '../menu/Menu'
+import Rodape from '../rodape/Rodape'
 
 
 export default function ModaInfan() {
     return (
+        <>
         <ContainerProd>
            <Menu link='/loja-roupa'/>
             <div>
@@ -46,6 +48,8 @@ export default function ModaInfan() {
                     </PrecoDesc>
                 </Produtos>
             </ProdutosM>
+            <Rodape/>
         </ContainerProd>
+        </>
     )
 }

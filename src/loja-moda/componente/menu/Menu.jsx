@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Header, Ul ,Li,Button} from './styled'
-
+import './style.css'
 export default function Menu(props) {
     return (
             <Header>

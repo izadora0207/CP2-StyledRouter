@@ -6,6 +6,7 @@ import roupa3 from '../img/masculina3.png'
 import roupa4 from '../img/masculina4.png'
 import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc, Linha2 } from '../styled'
 import Menu from '../menu/Menu'
+import Rodape from '../rodape/Rodape'
 
 
 export default function ModaMasc() {
@@ -41,11 +42,12 @@ export default function ModaMasc() {
                 <Produtos>
                     <img src={roupa4} alt="Camisa manga curta em viscose"/>
                     <PrecoDesc>
-                        <p>Camisa manga curta em viscose estampa bandana roxo</p>
+                        <p>Camisa manga curta estampa bandana roxo</p>
                         <span>R$ 119,90</span>
                     </PrecoDesc>
                 </Produtos> 
-            </ProdutosM>         
+            </ProdutosM>  
+            <Rodape/>       
         </ContainerProd>
     )
 }

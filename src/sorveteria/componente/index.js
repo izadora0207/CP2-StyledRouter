@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Cabecalho from "./cabecalho/Cabecalho";
 import Corpo from "./corpo/Corpo"
 import Rodape from "./rodape/Rodape";

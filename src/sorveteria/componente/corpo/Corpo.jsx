@@ -1,4 +1,3 @@
-import React from 'react'
 import Ft1 from '../img/KINDER.jpg'
 import Ft2 from '../img/Brisbane.jpg'
 import Ft3 from '../img/Kit Kat.jpg'
@@ -13,7 +12,6 @@ export default function Corpo() {
     return (
         <div className="back">
             <H2>Taças  <Linha2/></H2>
-           
             <Ul>
                 <Li>
                 <div><Img src={Ft1} alt="" /></div>
@@ -36,9 +34,7 @@ export default function Corpo() {
                     <p>R$59,99</p>
                 </Li>
             </Ul>
-
             <H2> Acompanhamentos <Linha2/></H2>
-
             <Ul>
                 <Li>
                 <div><Img src={Ct1} alt="" /></div>
@@ -62,7 +58,6 @@ export default function Corpo() {
                     <p>R$14,99</p>
                 </Li>
             </Ul>
-
         </div>
     )
 }
