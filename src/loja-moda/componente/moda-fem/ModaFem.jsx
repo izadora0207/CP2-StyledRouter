@@ -3,9 +3,10 @@ import banF from '../img/feminino-banner.png'
 import roupaf1 from '../img/feminina1.png'
 import roupaf2 from '../img/feminina2.png'
 import roupaf3 from '../img/feminina3.png'
-import roupaf4 from '../img/feminina2.png'
+import roupaf4 from '../img/feminina4.png'
 import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc, Linha2 } from '../styled'
 import Menu from '../menu/Menu'
+import Rodape from '../rodape/Rodape'
 
 export default function ModaFem() {
     return (
@@ -19,14 +20,14 @@ export default function ModaFem() {
                 <Produtos>
                     <img src={roupaf1} alt="Blusa cropped branca"/>
                     <PrecoDesc>
-                        <p>Blusa cropped em algodão com bordados de barquinhos branco</p>
+                        <p>Blusa cropped com bordados de barquinhos </p>
                         <span>R$ 139,90</span>
                     </PrecoDesc>
                 </Produtos>
                 <Produtos>
                     <img src={roupaf2} alt="Vestido midi em viscose"/>
                     <PrecoDesc>
-                        <p>Vestido midi em viscose com decote quadrado e estampa xadrez prymarycolor12</p>
+                        <p>Vestido midi quadrado e estampa xadrez </p>
                         <span>R$ 159,90</span>
                     </PrecoDesc>
                 </Produtos>
@@ -44,7 +45,8 @@ export default function ModaFem() {
                         <span>R$ 159,90</span>
                     </PrecoDesc>
                 </Produtos> 
-            </ProdutosM>       
+            </ProdutosM>     
+            <Rodape/>  
         </ContainerProd>
     )
 }

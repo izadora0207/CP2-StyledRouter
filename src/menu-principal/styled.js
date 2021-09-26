@@ -6,7 +6,12 @@ export const DivHome = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
+    @media (max-width: 758px) {
+        img{
+            height:70%;
+        }
+    
+    }
 `
 
 export const Img = styled.img`

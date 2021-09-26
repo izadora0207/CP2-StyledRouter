@@ -51,7 +51,9 @@ export const ProdutosM = styled.div`
     grid-template-columns: repeat(4,minmax(0,1fr));
     grid-gap: 14px;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 85px auto;
+    padding-bottom: 140px;
+
 
     @media (max-width: 1195px){
         grid-template-columns: repeat(2,minmax(0,1fr));
@@ -60,6 +62,7 @@ export const ProdutosM = styled.div`
 
     @media(max-width: 590px){
         grid-template-columns: repeat(1,minmax(0,1fr));
+        
     }
 `
 
@@ -86,6 +89,12 @@ export const BannerImg = styled.img`
     height: 350px;
     width: 100%;
     margin-bottom: 25px;
+    @media(max-width: 590px){
+        
+            height:auto !important;
+    }
+
+
 `
 
 export const Legenda = styled.p`
@@ -114,4 +123,18 @@ export const Linha2 = styled.div`
    border-radius:50px;
    margin-top:20px;
    margin-left:5px;
+`
+
+
+export const Footer = styled.footer`
+    height: 70px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding:10px;
+    p{
+        font-size: 13px
+    }
 `
