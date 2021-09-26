@@ -1,13 +1,12 @@
-import { Link } from "react-router-dom";
+
 import Menu from './menu/Menu'
 import Home from './home/Home'
-
+import './menu/style.css'
 
 export default function IndexL() {
     return (
       <div className="App">
-        <Menu/>
-        <button><Link to='/'>Voltar</Link></button>
+        <Menu link='/'/>
         <Home/>
       </div>
     );
