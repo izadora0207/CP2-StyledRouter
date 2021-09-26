@@ -15,6 +15,7 @@ export const Div = styled.div`
 export const Ul = styled.ul`
     display: flex;
     margin-bottom: 5vh;
+    justify-content: space-evenly;
 `
 export const Li = styled.li`
     list-style: none;

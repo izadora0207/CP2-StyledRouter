@@ -6,7 +6,6 @@ import Rodape from "./rodape/Rodape";
 export default function IndexS() {
   return (
     <div className="App">
-      <button><Link to='/'>  voltar </Link></button>
       <Cabecalho />
       <Corpo />
       <Rodape />
