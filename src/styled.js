@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    /*color: white;*/
     height: 100vh;
     list-style: none;
     margin: 0;
@@ -10,6 +10,8 @@ export const Div = styled.div`
     border: 0%;
 
 `
+
+
 export const Ul = styled.ul`
     display: flex;
     margin-bottom: 5vh;
