@@ -1,35 +1,62 @@
 import styled from "styled-components";
 
-const a = document.getElementById("a");
+export const Produtos = styled.div`
+    height: 350px;
+    border-radius: 7px;
+    margin: 20px auto;
+    
+    img
+    {
+        height: 100%;
+        border-radius: 3px;
+    }
 
-export const Img = styled.img`
-    width: 225px;
-    height: 225px;
-    box-shadow: -13px 13px 0px #ff5353;
+    @media(max-width: 590px){
+        margin: 20px auto; 
+    }
+`;
+
+export const ContainerProd = styled.body`
+    background-color: #fff;
+    color: #000;
 `
-export const H2 = styled.h2`
-    margin-top: 10px;
 
-`
+export const ProdutosM = styled.div`
 
-export const P = styled.p`
-    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-gap: 14px;
+    max-width: 1280px;
+    margin: 0 auto;
 
-`
-export const A = styled.div`
-    margin-top: 30px;
-`
+    @media (max-width: 1195px){
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        margin: 0 auto;
+    }
 
-export const Section = styled.section`
-    margin: 50px auto;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center!important;
+    @media(max-width: 590px){
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+
+    /* display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    text-transform: uppercase; */
+`
+export const PrecoDesc = styled.div`]
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /* background-color: #ff2; */
+    margin: 0 auto;
 `
 
-export const Div = styled.div`
-    margin: 10px 45px;
-    max-width: 225px;
-    border-radius: 5px;
+export const BannerImg = styled.img`
+    height: 350px;
+    width: 100%;
+    margin-bottom: 25px;
 `
