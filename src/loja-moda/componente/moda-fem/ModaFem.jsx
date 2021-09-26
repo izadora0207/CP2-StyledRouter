@@ -6,20 +6,12 @@ import roupaf2 from '../img/feminina2.png'
 import roupaf3 from '../img/feminina3.png'
 import roupaf4 from '../img/feminina2.png'
 import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from './styled'
+import Menu from '../menu/Menu'
 
 export default function ModaFem() {
     return (
         <ContainerProd>
-            <header>
-                <nav>
-                    <ul>
-                        <li><Link to='/moda-masculina'>Moda Masculina</Link></li>
-                        <li><Link to='/moda-feminina'>Moda Feminina</Link></li>
-                        <li><Link to='/moda-infantil'>Moda Infantil</Link></li>
-                        <li><Link to='/sobre'>Sobre Nós</Link></li>
-                    </ul>
-                </nav>
-            </header>
+            <Menu link='/loja-roupa'/>
             <h1>Moda feminina</h1>
             <div>
                 <BannerImg src={banF} alt="Listras"/>

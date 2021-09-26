@@ -1,0 +1,46 @@
+@media (max-width: 758px) {
+    .check1{
+        display: block;
+    }
+    ul{
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        background: white;
+        display: none;
+        top: 58px;
+        left: 0;
+    }
+    .menu li{
+      display: none;
+    }
+    nav li{
+        display: flex;
+        line-height: 30px;
+        justify-content: center;
+        border-top: 1px solid #fff;
+        padding: 20px 0;
+	}
+
+    header{
+        padding: 0px !important;
+    }
+    nav{
+      display: flex;
+      justify-content: space-between;
+    }
+    #check1:checked ~ ul.menu li {
+      display: block;
+      line-height: 30px;
+      justify-content: center;
+      padding: 20px 0;
+      width: 100%;
+      text-align: center;
+	}
+  button{
+    position: relative !important;
+    top: 8px !important;
+    right: 2px;
+    left: 0 !important;
+  }
+}
