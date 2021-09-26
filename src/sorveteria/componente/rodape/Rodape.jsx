@@ -1,11 +1,11 @@
 import React from 'react'
+import { Footer } from '../../styled'
 
 export default function Rodape() {
     return (
-        <footer>
-            <p>
-                Rua tal n° 6
-            </p>
-        </footer>
+        <Footer>
+            <p>© 2021 - Tage </p>
+            <p>Melhor sorvete não há</p>
+        </Footer>
     )
 }

@@ -39,6 +39,14 @@ a{
   color: #fde4b7 ;
 }
 
+.banner{
+  background-image: url('./sorveteria/componente/img/sov.jpg');
+}
+
+.back{
+  background: #fde4b724;
+  padding-bottom: 200px;
+}
 
 @keyframes tada {
     from {
@@ -71,3 +79,5 @@ a{
     -webkit-animation-name: tada;
     animation-name: tada;
   }
+
+  
