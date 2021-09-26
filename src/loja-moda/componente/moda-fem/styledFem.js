@@ -3,12 +3,15 @@ import styled from "styled-components";
 export const ProdutosFem = styled.div`
     height: 350px;
     border-radius: 7px;
-    margin-right: 25px;
-    margin-bottom: 45px;
+    margin: 20px auto;
 
     img{
         height: 100%;
         border-radius: 3px;
+    }
+
+    @media(max-width: 590px){
+        margin: 20px auto; 
     }
 `;
 
@@ -19,12 +22,14 @@ export const Container = styled.body`
 
 export const ProdutosAll = styled.div`
     display: grid;
-    grid-gap: 14px;;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-gap: 14px;
     max-width: 1280px;
     margin: 0 auto;
 
     @media (min-width: 989px){
         grid-template-columns: repeat(4,minmax(0,1fr));
+        margin: 0 auto;
     }
 
     @media (max-width: 988px){
@@ -35,10 +40,12 @@ export const InfoFem = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
+    margin: 0 auto;
 `
 export const BannerFem = styled.img`
-    height: 450px;
+    height: 350px;
     width: 100%;
     margin-bottom: 25px;
 `
