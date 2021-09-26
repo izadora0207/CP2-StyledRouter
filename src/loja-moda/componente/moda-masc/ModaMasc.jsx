@@ -1,21 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import banM from '../img/masculino-banner.jpg'
 import roupa1 from '../img/masculina1.png'
 import roupa2 from '../img/masculina2.png'
 import roupa3 from '../img/masculina3.png'
 import roupa4 from '../img/masculina4.png'
-import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from './styled'
+import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from '../styled'
 import Menu from '../menu/Menu'
+
 
 export default function ModaMasc() {
     return (
         <ContainerProd>
             <Menu link='/loja-roupa'/>
-            <h1>Moda masculina</h1>
             <div>
                 <BannerImg src={banM} alt="Moda Geek"/>
             </div>
+            <h1>Moda masculina</h1>
             <ProdutosM>
                 <Produtos>
                     <img src={roupa1} alt="Camisa manga curta em linho bege"/>
