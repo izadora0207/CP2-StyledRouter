@@ -12,10 +12,10 @@ export default function ModaMasc() {
     return (
         <ContainerProd>
             <Menu link='/loja-roupa'/>
-            <h1>Moda masculina</h1>
             <div>
                 <BannerImg src={banM} alt="Moda Geek"/>
             </div>
+            <h1>Moda masculina</h1>
             <ProdutosM>
                 <Produtos>
                     <img src={roupa1} alt="Camisa manga curta em linho bege"/>

@@ -11,10 +11,10 @@ export default function ModaFem() {
     return (
         <ContainerProd>
             <Menu link='/loja-roupa'/>
-            <h1>Moda feminina</h1>
             <div>
                 <BannerImg src={banF} alt="Listras"/>
             </div>
+            <h1>Moda feminina</h1>
             <ProdutosM>
                 <Produtos>
                     <img src={roupaf1} alt="Blusa cropped branca"/>
