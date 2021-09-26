@@ -1,10 +1,10 @@
 import React from 'react'
-import banF from '../img/feminino-banner.jpg'
+import banF from '../img/feminino-banner.png'
 import roupaf1 from '../img/feminina1.png'
 import roupaf2 from '../img/feminina2.png'
 import roupaf3 from '../img/feminina3.png'
 import roupaf4 from '../img/feminina2.png'
-import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc } from '../styled'
+import { Produtos, ProdutosM, BannerImg, ContainerProd, PrecoDesc, Linha2 } from '../styled'
 import Menu from '../menu/Menu'
 
 export default function ModaFem() {
@@ -12,9 +12,9 @@ export default function ModaFem() {
         <ContainerProd>
             <Menu link='/loja-roupa'/>
             <div>
-                <BannerImg src={banF} alt="Listras"/>
+                <BannerImg src={banF} alt="Moderno e sofisticado"/>
             </div>
-            <h1>Moda feminina</h1>
+            <h1>Moda feminina <Linha2/></h1>
             <ProdutosM>
                 <Produtos>
                     <img src={roupaf1} alt="Blusa cropped branca"/>

@@ -26,11 +26,23 @@ export const Produtos = styled.div`
     @media(max-width: 1195px){
         margin: 35px auto;
     }
+
+
+
 `;
 
 export const ContainerProd = styled.body`
     background-color: #fff;
     color: #000;
+
+    h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        margin-bottom:20px;
+        padding-top:50px;
+        text-transform: uppercase;
+        margin-left:20px;
+    }
 `
 
 export const ProdutosM = styled.div`
@@ -51,17 +63,55 @@ export const ProdutosM = styled.div`
     }
 `
 
-export const PrecoDesc = styled.div`]
+export const PrecoDesc = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+    p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        font-weight: normal;
+    }
+
+    span{
+        font-weight: bolder;
+    }
 `
 
 export const BannerImg = styled.img`
     height: 350px;
     width: 100%;
     margin-bottom: 25px;
+`
+
+export const Legenda = styled.p`
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+`
+export const Colecao = styled.p`
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    color: #000000;
+`
+export const Comprar = styled.span`
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: underline;
+    color: #000000;
+`
+export const Linha2 = styled.div`
+   height:4px;
+   background:#FF0000;
+   width:50px;
+   border-radius:50px;
+   margin-top:20px;
+   margin-left:5px;
 `
